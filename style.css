@@ -1,0 +1,105 @@
+*,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  width: 400px;
+  height: 80%;
+}
+.left{
+    display: flex;
+    justify-content: start;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userName{
+    margin: 5px 10px;
+    background-color: red;
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+}
+.smsCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.chatCon{
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #dbdbdb;
+    text-align: start;
+}
+.header {
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: teal;
+}
+#send {
+  background-color: #00b2ff;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 50%;
+}
+.chatArea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.main {
+    overflow: scroll;
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: calc(100% - 100px);
+  background-color: green;
+}
+#send i {
+  font-size: 20px;
+}
+#inp {
+  padding-left: 10px;
+  position: absolute;
+  left: 5px;
+  border: 1px solid;
+  width: calc(100% - 70px);
+  height: calc(100% - 4px);
+  border-radius: 25px;
+  background-color: #dbdbdb;
+}
+button,
+input {
+  border: none;
+  outline: none;
+
+  background: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}

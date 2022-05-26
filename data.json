@@ -1,0 +1,5 @@
+{
+    "sms":[
+        {"name": "User1", "chat":"Hi"},{"name":"User2","chat":"Hello"},{"name":"User1","chat":"wassup?"}
+    ]
+}
