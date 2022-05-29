@@ -1,0 +1,19 @@
+{
+    "sms": {
+      "0": {
+        "chat": "Hi",
+        "name": "User1",
+        "date":" May 27 13:55"
+      },
+      "1": {
+        "chat": "Hello",
+        "name": "User2",
+        "date":" May 27 13:55"
+      },
+      "2": {
+        "chat": "wassup?",
+        "name": "User1",
+        "date":" May 27 13:55"
+      }
+    }
+  }
